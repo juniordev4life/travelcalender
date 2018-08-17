@@ -16,7 +16,7 @@ import * as rollup_babel from "rollup-plugin-babel";
 import * as path from "path";
 
 const pkg = require("./package.json");
-const version = `/* flatpickr v${pkg.version},, @license MIT */`;
+const version = `/* travelcalender v${pkg.version},, @license MIT */`;
 
 const paths = {
   themes: "./src/style/themes/*.styl",
@@ -56,7 +56,7 @@ const rollupConfig: RollupOptions = {
     file: "",
     format: "umd",
     exports: "auto",
-    banner: `/* flatpickr v${pkg.version}, @license MIT */`,
+    banner: `/* travelcalender v${pkg.version}, @license MIT */`,
     sourcemap: false,
   },
 };
@@ -104,8 +104,8 @@ function uglify(src: string) {
 
 async function buildScripts() {
   try {
-    const transpiled = await fs.readFile("./dist/flatpickr.js");
-    fs.writeFile("./dist/flatpickr.min.js", uglify(transpiled.toString()));
+    const transpiled = await fs.readFile("./dist/travelcalender.js");
+    fs.writeFile("./dist/travelcalender.min.js", uglify(transpiled.toString()));
     console.log("done.");
   } catch (e) {
     logErr(e);
@@ -193,8 +193,8 @@ async function buildStyle() {
       transpileStyle(src_ie),
     ]);
 
-    fs.writeFile("./dist/flatpickr.css", style);
-    fs.writeFile("./dist/flatpickr.min.css", min);
+    fs.writeFile("./dist/travelcalender.css", style);
+    fs.writeFile("./dist/travelcalender.min.css", min);
     fs.writeFile("./dist/ie.css", ie);
   } catch (e) {
     logErr(e);

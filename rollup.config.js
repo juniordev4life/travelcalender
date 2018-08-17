@@ -10,11 +10,11 @@ import path from "path";
 export default {
   input: './src/index.ts',
   output: {
-    file: 'dist/flatpickr.js',
-    name: "flatpickr",
+    file: 'dist/travelcalender.js',
+    name: "travelcalender",
     format: 'umd',
     exports: "default",
-    banner: `/* flatpickr v${pkg.version}, @license MIT */`
+    banner: `/* travelcalender v${pkg.version}, @license MIT */`
   },
 
   plugins: [
