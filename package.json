@@ -65,14 +65,14 @@
   "types": "./dist/typings.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chmln/flatpickr.git"
+    "url": "git+https://github.com/juniordev4life/travelcalender"
   },
   "author": "Marco Slusalek <info@juniordev4life.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chmln/flatpickr/issues"
+    "url": "https://github.com/juniordev4life/travelcalender/issues"
   },
-  "homepage": "https://chmln.github.io/flatpickr",
+  "homepage": "https://github.com/juniordev4life/travelcalender",
   "keywords": [
     "javascript",
     "datetimepicker",

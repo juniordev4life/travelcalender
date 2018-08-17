@@ -1,6 +1,6 @@
 ## travelcalender - javascript datetime picker (based on flatpickr)
 
-[![npm version](https://badge.fury.io/js/flatpickr.svg)](https://www.npmjs.com/package/flatpickr)
+[![npm version](https://badge.fury.io/js/travelcalender.svg)](https://badge.fury.io/js/travelcalender)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/chmln/flatpickr/master/LICENSE.md)
 
 ## Compatibility
