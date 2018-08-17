@@ -1,6 +1,6 @@
 {
   "name": "travelcalender",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A lightweight, powerful javascript datetime picker based on flatpickr",
   "scripts": {
     "build": "run-s build:pre build:build build:post",
