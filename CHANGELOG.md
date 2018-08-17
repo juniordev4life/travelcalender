@@ -1,3 +1,9 @@
+### 1.1.0 (2018-08-17)
+
+##### Other Changes
+
+*  change package.json repositories and Readme badge ([b1ef45c3](https://github.com/juniordev4life/travelcalender/commit/b1ef45c3e3171e4e73ecc09f4ca7b89208d3159c))
+
 #### 1.0.1 (2018-08-17)
 
 ##### Other Changes
