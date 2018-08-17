@@ -1,3 +1,9 @@
+### 1.2.0 (2018-08-17)
+
+##### Refactors
+
+*  chnage output files to travelcalender ([dd1dba01](https://github.com/juniordev4life/travelcalender/commit/dd1dba0146fc22f76122b597873049bbd597646a))
+
 ### 1.1.0 (2018-08-17)
 
 ##### Other Changes
